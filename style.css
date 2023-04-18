@@ -1,0 +1,83 @@
+body {
+    background-color: rgb(23, 223, 50);
+    color: rgb(12, 14, 29);
+    text-align: center;
+    padding-top: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-size: cover;
+    color: antiquewhite;
+    font-weight: bold;
+    background: url("https://media.istockphoto.com/id/520741354/photo/poker-play-cards.jpg?s=612x612&w=is&k=20&c=wtwNL5sLZdwvkkzclNyfCbF4uoWC60UzwfcbJK9EM04=");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(59, 129, 190);
+    width: 40%;
+    border-radius: 10px;
+    position: absolute;
+    left: 20px;
+}
+
+p {
+    text-align: left;
+    font-style: italic;
+}
+h1 {
+    color: goldenrod;
+}
+#startovanje {
+    color: goldenrod;
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#sum-el {
+    color: goldenrod;
+    font-weight: bold;
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    
+
+}
+#nova-karta {
+    color: rgb(212, 165, 24);
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(25, 146, 202);
+    border: none;
+    border-radius: 5px;
+    
+    cursor: pointer;
+}
+#nova-igra {
+    color: rgb(24, 22, 19);
+    font-weight: bold;
+    height: 50px;
+    width: 150px;
+    background-color: rgb(219, 223, 13);
+    border: none;
+    border-radius: 5px;
+    
+    cursor: pointer;
+}
+#zavisnost {
+    color: black;
+    font-size: 20px;
+}
+
